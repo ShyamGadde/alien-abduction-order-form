@@ -34,21 +34,23 @@
           <input type="number" id="qty" name="qty" min="1" max="10">
 
           <p>What type of UFO do you prefer?</p>
-          <label>
-            <input type="radio" name="ufotype" value="classic" checked> Classic oval UFO
-          </label>
-          <label>
-            <input type="radio" name="ufotype" value="starwars"> Star Wars-style Imperial cruiser
-          </label>
-          <label>
-            <input type="radio" name="ufotype" value="galactica"> Battlestar Galactica-style Viper
-          </label>
-          <label>
-            <input type="radio" name="ufotype" value="startrek"> Borg-style cube
-          </label>
-          <label>
-            <input type="radio" name="ufotype" value="any"> Whatever is in the neighborhood
-          </label>
+          <div class="radio-group">
+            <label>
+              <input type="radio" name="ufotype" value="classic" checked> Classic oval UFO
+            </label>
+            <label>
+              <input type="radio" name="ufotype" value="starwars"> Star Wars-style Imperial cruiser
+            </label>
+            <label>
+              <input type="radio" name="ufotype" value="galactica"> Battlestar Galactica-style Viper
+            </label>
+            <label>
+              <input type="radio" name="ufotype" value="startrek"> Borg-style cube
+            </label>
+            <label>
+              <input type="radio" name="ufotype" value="any"> Whatever is in the neighborhood
+            </label>
+          </div>
 
           <label for="abtype">What type of abduction experience do you want?</label>
           <select id="abtype" name="abtype">
