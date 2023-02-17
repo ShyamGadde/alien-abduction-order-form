@@ -31,7 +31,7 @@ section {
 h1 {
   font-size: 2rem;
   font-weight: 700;
-  margin-bottom: 2rem;
+  margin-bottom: 1.3rem;
 }
 
 p {
@@ -41,10 +41,10 @@ p {
 
 label {
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
-input, select, textarea {
+input:not([type="radio"]):not([type="checkbox"]), select, textarea {
   width: 100%;
   padding: 0.5rem;
   border-radius: 4px;
@@ -54,7 +54,11 @@ input, select, textarea {
   margin-bottom: 1rem;
 }
 
-input:focus, select:focus, textarea:focus {
+textarea {
+  height: 7rem;
+}
+
+input:not([type="radio"]):not([type="checkbox"]):focus, select:focus, textarea:focus {
   outline: none;
   box-shadow: 0 0 4px #00ffff;
 }
@@ -66,7 +70,6 @@ button {
   border-radius: 4px;
   padding: 0.5rem 1rem;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
 }
 
 button:hover {
@@ -76,8 +79,12 @@ button:hover {
 
 /*Styling for fieldset*/
 fieldset {
-  border: none;
+  /* border: none; */
   margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 12px;
+  border-color: #222;
+  box-shadow: 1px 1px 2px #222;
 }
 
 legend {
