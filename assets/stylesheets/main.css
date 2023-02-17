@@ -14,23 +14,23 @@ body {
   line-height: 1.6;
 }
 
-/*Add space and alien vibes to the wrapper*/
 .wrapper {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 2rem;
+  width: 90%;
+  margin: 0 auto;
 }
 
 /*Set up section*/
 section {
-  flex: 1;
   margin-right: 2rem;
+  flex-basis: 55%;
 }
 
 h1 {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 2rem;
 }
 
