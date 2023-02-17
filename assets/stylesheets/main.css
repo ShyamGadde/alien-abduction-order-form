@@ -1,0 +1,124 @@
+/*Reset default browser styles*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Set up body*/
+body {
+  background-color: #080808;
+  color: #f2f2f2;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/*Add space and alien vibes to the wrapper*/
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+/*Set up section*/
+section {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  color: #b3b3b3;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+  background-color: #222;
+  color: #f2f2f2;
+  margin-bottom: 1rem;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 4px #00ffff;
+}
+
+button {
+  background-color: #00ffff;
+  color: #080808;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #b3b3b3;
+  color: #00ffff;
+}
+
+/*Styling for fieldset*/
+fieldset {
+  border: none;
+  margin-bottom: 2rem;
+}
+
+legend {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/*Styling for aside*/
+aside {
+  flex: 1;
+  background-color: #222;
+  padding: 2rem;
+  border-radius: 4px;
+}
+
+h3 {
+  color: #00ffff;
+  margin-bottom: 1.5rem;
+}
+
+iframe {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 1.5rem;
+}
+
+address {
+  font-style: normal;
+  font-size: 0.875rem;
+  color: #b3b3b3;
+  line-height: 1.4;
+}
+
+/*Media query for smaller screens*/
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  aside {
+    margin-top: 2rem;
+  }
+}
