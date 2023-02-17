@@ -25,10 +25,21 @@ body {
 }
 
 section {
-	flex-basis: 57%;
-	margin-right: 10%;
+  flex-basis: 57%;
+  margin-right: 10%;
 }
 
 aside {
-	flex-basis: 33%;
+  flex-basis: 33%;
+}
+
+p,
+[for="abtype"] {
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
+fieldset,
+#abtype {
+  margin-bottom: 2rem;
 }
