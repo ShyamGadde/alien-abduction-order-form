@@ -16,6 +16,7 @@ body {
 
 .wrapper {
   display: flex;
+  gap: 2rem;
   align-items: flex-start;
   padding: 2rem;
   width: 90%;
@@ -24,7 +25,6 @@ body {
 
 /*Set up section*/
 section {
-  margin-right: 2rem;
   flex-basis: 55%;
 }
 
