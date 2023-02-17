@@ -65,20 +65,6 @@ input:not([type="radio"]):not([type="checkbox"]):focus, select:focus, textarea:f
   box-shadow: 0 0 4px #00ffff;
 }
 
-button {
-  background-color: #00ffff;
-  color: #080808;
-  border: none;
-  border-radius: 4px;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #b3b3b3;
-  color: #00ffff;
-}
-
 /*Styling for fieldset*/
 fieldset {
   margin-bottom: 2rem;
@@ -100,6 +86,21 @@ legend {
   color: #b3b3b3;
 }
 
+button {
+  background-color: #00ffff;
+  color: #080808;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #b3b3b3;
+  color: #00ffff;
+}
+
 /*Styling for aside*/
 aside {
   flex: 1;
@@ -111,6 +112,7 @@ aside {
 h3 {
   color: #00ffff;
   margin-bottom: 1.5rem;
+  font-variant: small-caps;
 }
 
 iframe {
